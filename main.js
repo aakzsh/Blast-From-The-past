@@ -62,12 +62,12 @@ class BasicWorldDemo {
 
     const loader = new THREE.CubeTextureLoader();
     const texture = loader.load([
-        './resources/corona_rt.png',
-        './resources/corona_ft.png',
-        './resources/corona_up.png',
-        './resources/corona_dn.png',
-        './resources/corona_bk.png',
-        './resources/corona_lf.png'
+        './resources/scene_rt.jpg',
+        './resources/scene_ft.jpg',
+        './resources/scene_up.jpg',
+        './resources/scene_dn.jpg',
+        './resources/scene_bk.jpg',
+        './resources/scene_lf.jpg'
     ]);
     this._scene.background = texture;
 
